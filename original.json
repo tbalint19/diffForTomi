@@ -1,0 +1,503 @@
+{
+  "version": 1,
+  "configs": {
+    "login_learn_more_link": {
+      "value": "myvodafone://vodafone.hu/web?url=https://www.vodafone.hu/mva/eng/faq&title=webview_title_login_learn_more",
+      "modifiers": []
+    },
+    "tobi_help_link": {
+      "value": "myvodafone://vodafone.hu/web?url=https://www.vodafone.hu/mva/eng/faq&title=webview_title_tobi_help",
+      "modifiers": []
+    },
+    "dashboard_greeting": {
+      "value": "Good day!",
+      "modifiers": [
+        {
+          "value": "Good morning!",
+          "startDate": null,
+          "endDate": null,
+          "startTime": "06:00:00",
+          "endTime": "12:00:00",
+          "rank": 30
+        },
+        {
+          "value": "Good afternoon!",
+          "startDate": null,
+          "endDate": null,
+          "startTime": "12:00:01",
+          "endTime": "18:00:00",
+          "rank": 31
+        },
+        {
+          "value": "Good evening!",
+          "startDate": null,
+          "endDate": null,
+          "startTime": "18:00:01",
+          "endTime": "23:59:59",
+          "rank": 32
+        },
+        {
+          "value": "Merry Christmas!",
+          "startDate": "2019-12-24",
+          "endDate": "2019-12-26",
+          "startTime": null,
+          "endTime": null,
+          "rank": 1
+        }
+      ]
+    },
+    "topup_amount": {
+      "value": "2500",
+      "modifiers": [
+        {
+          "value": "500",
+          "startDate": null,
+          "endDate": null,
+          "startTime": null,
+          "endTime": null,
+          "rank": 1
+        },
+        {
+          "value": "1000",
+          "startDate": null,
+          "endDate": null,
+          "startTime": null,
+          "endTime": null,
+          "rank": 2
+        },
+        {
+          "value": "1500",
+          "startDate": null,
+          "endDate": null,
+          "startTime": null,
+          "endTime": null,
+          "rank": 3
+        },
+        {
+          "value": "2000",
+          "startDate": null,
+          "endDate": null,
+          "startTime": null,
+          "endTime": null,
+          "rank": 4
+        },
+        {
+          "value": "2500",
+          "startDate": null,
+          "endDate": null,
+          "startTime": null,
+          "endTime": null,
+          "rank": 5
+        },
+        {
+          "value": "3000",
+          "startDate": null,
+          "endDate": null,
+          "startTime": null,
+          "endTime": null,
+          "rank": 6
+        },
+        {
+          "value": "5000",
+          "startDate": null,
+          "endDate": null,
+          "startTime": null,
+          "endTime": null,
+          "rank": 7
+        },
+        {
+          "value": "7500",
+          "startDate": null,
+          "endDate": null,
+          "startTime": null,
+          "endTime": null,
+          "rank": 8
+        },
+        {
+          "value": "10000",
+          "startDate": null,
+          "endDate": null,
+          "startTime": null,
+          "endTime": null,
+          "rank": 9
+        },
+        {
+          "value": "15000",
+          "startDate": null,
+          "endDate": null,
+          "startTime": null,
+          "endTime": null,
+          "rank": 10
+        }
+      ]
+    }
+  },
+  "localizations": {
+    "test_localization": "Test",
+    "validation_login_msisdn_1": "Phonenumber has to be 9 digits",
+    "validation_login_password_1": "Please use lower- upper case letters and numbers",
+    "cancel": "Cancel",
+    "ok": "OK",
+    "global_error_title": "Oops…",
+    "global_error_server": "Server error",
+    "global_error_no_network": "No network",
+    "global_error_unknown": "Unknown error",
+    "global_error_timeout": "Timeout error",
+    "global_error_could_not_connect": "Could not connect to server",
+    "global_error_invalid_response": "Invalid response.",
+    "global_error_ok_button": "Alright!",
+    "global_error_retry_button": "Retry",
+    "abort_dialog_title": "Abort?",
+    "abort_dialog_message": "Are you sure you want to abort progress?",
+    "not_poc_scope_dialog_title": "FYI",
+    "not_poc_scope_dialog_message": "This function is not part of POC scope.",
+    "startup_update_title": "New version available!",
+    "startup_update_message": "There is a new version available. Please update the application!",
+    "startup_update_button": "Update",
+    "login_phone_info_message": "Provide your phonenumber without the area code but with service provider. E.g.: 701234567",
+    "login_phone_placeholder": "Phonenumber",
+    "login_password_placeholder": "Password",
+    "login_remember_me": "Remember me",
+    "login_password_reset_text": "Forgot your password?",
+    "login_login_button": "Login",
+    "login_registration_label": "Not yet registered?",
+    "login_registration_link_text": "Register",
+    "login_switch_language_link_text": "Válts magyarra!",
+    "login_learn_more_link_text": "Learn more",
+    "login_error_message": "Incorrect phonenumber or password.",
+    "login_error_required_action": "Please try again!",
+    "webview_title_login_learn_more": "Learn more",
+    "webview_title_tobi_help": "TOBi help",
+    "dashboard_my_products_tab_title": "My products",
+    "dashboard_my_profile_tab_title": "Account",
+    "dashboard_show_more": "Show more",
+    "my_products_title": "My products",
+    "my_profile_title": "Account",
+    "my_profile_logout_button": "Logout",
+    "my_profile_logout_verification_question": "Are you sure you want to log out?",
+    "my_profile_logout_verification_button": "Yes, logout.",
+    "billing_title": "My bills",
+    "billing_current_bill_title": "Current bill",
+    "billing_due_date_label": "Due date",
+    "billing_previous_bill_title": "Previous bills",
+    "billing_extra_charges_label": "Out of bundle costs",
+    "billing_your_services_label": "Your products",
+    "billing_go_to_pay_button_text": "Pay",
+    "billing_details_button_text": "Details",
+    "month_january": "January",
+    "month_february": "February",
+    "month_march": "March",
+    "month_april": "April",
+    "month_may": "May",
+    "month_june": "June",
+    "month_july": "July",
+    "month_august": "August",
+    "month_september": "September",
+    "month_october": "October",
+    "month_november": "November",
+    "month_december": "December",
+    "month_january_short": "Jan",
+    "month_february_short": "Feb",
+    "month_march_short": "Mar",
+    "month_april_short": "Apr",
+    "month_may_short": "May",
+    "month_june_short": "Jun",
+    "month_july_short": "Jul",
+    "month_august_short": "Aug",
+    "month_september_short": "Sep",
+    "month_october_short": "Oct",
+    "month_november_short": "Nov",
+    "month_december_short": "Dec",
+    "bill_details_bill_month_january": "January invoice",
+    "bill_details_bill_month_february": "February invoice",
+    "bill_details_bill_month_march": "March invoice",
+    "bill_details_bill_month_april": "April invoice",
+    "bill_details_bill_month_may": "May invoice",
+    "bill_details_bill_month_june": "June invoice",
+    "bill_details_bill_month_july": "July invoice",
+    "bill_details_bill_month_august": "August invoice",
+    "bill_details_bill_month_september": "September invoice",
+    "bill_details_bill_month_october": "October invoice",
+    "bill_details_bill_month_november": "November invoice",
+    "bill_details_bill_month_december": "December invoice",
+    "bill_details_due_date_label": "Due date: ",
+    "bill_details_invoice_billing_account_label": "Billing account ID",
+    "bill_details_invoice_number_label": "Invoice Number",
+    "bill_details_payment_method_label": "Payment method",
+    "bill_details_pay_button_text_prefix": "Pay ",
+    "bill_details_pay_button_text_postfix": "",
+    "bill_details_section_header_title": "Bill content",
+    "bill_details_payment_default": " (default)",
+    "bill_details_payment_status_payed": "Paid: ",
+    "bill_details_payment_status_pending": "Payment is pending.",
+    "bill_details_payment_status_expired": "Bill has expired!",
+    "bill_confirmation_title": "Payment",
+    "bill_confirmation_due_date_label": "Due date:",
+    "bill_confirmation_payment_method_label": "Payment method",
+    "bill_confirmation_pay_button_text_prefix": "Pay ",
+    "bill_confirmation_pay_button_text_postfix": "",
+    "bill_confirmation_payment_default": " (default)",
+    "bill_confirmation_payment_status_label": "Your payment is in progress.",
+    "bill_payment_response_success_title": "Payment success",
+    "bill_payment_response_error_title": "Something's happened",
+    "bill_payment_response_success_label": "The transfer is in progress, it may take even 3 days long. Thank you for your patience!",
+    "bill_payment_response_error_label": "Caused by:\nCredit card is expired, disabled or it is out of limit",
+    "bill_payment_response_error_button_text": "I'll try it again",
+    "bill_payment_response_success_button_text": "Done",
+    "topup_title_general": "Top up",
+    "topup_title_self": "Top up",
+    "topup_number_label": "Top up phone number",
+    "topup_new_number_label": "New phone number",
+    "topup_amount_label": "Top up amount",
+    "topup_payment_method_label": "Payment method",
+    "topup_payment_default": " (default)",
+    "topup_button_text": "Continue"
+  },
+  "localizationExtensions": {
+    "formal": {},
+    "informal": {}
+  },
+  "localizationFormats": {
+    "yearFormat": "yyyy",
+    "monthShortFormat": "MMM",
+    "monthLongFormat": "MMMM",
+    "yearMonthLongFormat": "MMMM yyyy",
+    "dayOfMonthFormat": "d MMM",
+    "monthIntervalFormat": "d. MMM",
+    "dateFormat": "yyyy.MM.dd.",
+    "timeStampFormat": "yyyy.MM.dd. HH:mm",
+    "nameFormat": "<firstname> <middlename> <lastname>",
+    "currencyFormat.HUF": "<amount> Ft",
+    "bankCardNumberFormat": "#### #### #### ####",
+    "msisdnFormat": "+36 ## ### ####",
+    "thousandSeparator": ",",
+    "decimalPoint": ".",
+    "decimalPlaces": 2
+  },
+  "globalDashboardSections": [
+    {
+      "id": "222",
+      "title": "Base",
+      "rank": 200
+    },
+    {
+      "id": "111",
+      "title": "Discover",
+      "rank": 100
+    },
+    {
+      "id": "333",
+      "title": "Assistance",
+      "rank": 300
+    },
+    {
+      "id": "444",
+      "title": "Offers and gifts",
+      "rank": 400
+    }
+  ],
+  "globalDashboardTiles": {
+    "simpleTiles": [
+      {
+        "id": "1111",
+        "ref": "uuid1",
+        "sectionId": "111",
+        "title": "Due to upgrade!",
+        "background": "simple-tile-upgrade-bg.jpg",
+        "icon": null,
+        "rank": 1,
+        "link": null,
+        "subtitle": "Order now! >",
+        "description": null,
+        "theme": "red",
+        "size": "w100h100"
+      },
+      {
+        "id": "2111",
+        "ref": "uuid2",
+        "sectionId": "111",
+        "title": "Family",
+        "background": null,
+        "icon": "ic_family_black.png",
+        "rank": 2,
+        "link": null,
+        "subtitle": null,
+        "description": null,
+        "theme": "light",
+        "size": "w50h50"
+      },
+      {
+        "id": "3111",
+        "ref": "uuid3",
+        "sectionId": "111",
+        "title": "GoodThings",
+        "background": "small-tile-red-bg.jpg",
+        "icon": "ic_mail_white.png",
+        "rank": 3,
+        "link": null,
+        "subtitle": "Check it",
+        "description": null,
+        "theme": "red",
+        "size": "w50h50"
+      }
+    ],
+    "menuTiles": [
+      {
+        "id": "1222",
+        "sectionId": "222",
+        "title": "Prepaid top up",
+        "background": null,
+        "icon": "ic_top_up_black.png",
+        "rank": 1,
+        "link": null,
+        "badge": 0,
+        "hidden": false
+      },
+      {
+        "id": "2222",
+        "sectionId": "222",
+        "title": "Change PIN-code",
+        "background": null,
+        "icon": "ic_password_key_black.png",
+        "rank": 2,
+        "link": null,
+        "badge": 0,
+        "hidden": false
+      },
+      {
+        "id": "3222",
+        "sectionId": "222",
+        "title": "Your messages",
+        "background": null,
+        "icon": "ic_mail_black.png",
+        "rank": 3,
+        "link": null,
+        "badge": 2,
+        "hidden": false
+      },
+      {
+        "id": "4222",
+        "sectionId": "222",
+        "title": "Surprises",
+        "background": null,
+        "icon": "ic_all_rewards_black.png",
+        "rank": 4,
+        "link": null,
+        "badge": 0,
+        "hidden": true
+      },
+      {
+        "id": "5222",
+        "sectionId": "222",
+        "title": "Hidden treasures",
+        "background": null,
+        "icon": "ic_locate_me_black.png",
+        "rank": 5,
+        "link": null,
+        "badge": 3,
+        "hidden": true
+      },
+      {
+        "id": "1333",
+        "sectionId": "333",
+        "title": "Travel abroad",
+        "background": null,
+        "icon": "ic_country_black.png",
+        "rank": 1,
+        "link": null,
+        "badge": 0,
+        "hidden": false
+      },
+      {
+        "id": "2333",
+        "sectionId": "333",
+        "title": "Shop browser",
+        "background": null,
+        "icon": "ic_locate_me_black.png",
+        "rank": 2,
+        "link": null,
+        "badge": 0,
+        "hidden": false
+      },
+      {
+        "id": "3333",
+        "sectionId": "333",
+        "title": "WiFi browser",
+        "background": null,
+        "icon": "ic_public_wifi_black.png",
+        "rank": 3,
+        "link": null,
+        "badge": 0,
+        "hidden": false
+      },
+      {
+        "id": "1444",
+        "sectionId": "444",
+        "title": "Offers & gifts",
+        "background": null,
+        "icon": "ic_all_rewards_black.png",
+        "rank": 1,
+        "link": null,
+        "badge": 0,
+        "hidden": false
+      },
+      {
+        "id": "2444",
+        "sectionId": "444",
+        "title": "Wide bandwidth browser",
+        "background": null,
+        "icon": "ic_boosting_black.png",
+        "rank": 2,
+        "link": null,
+        "badge": 0,
+        "hidden": false
+      }
+    ],
+    "imageTiles": [
+      {
+        "id": "4333",
+        "sectionId": "333",
+        "title": "Lorem ipsum dolor sit amet consectetur adipiscing elit",
+        "background": "image-tile-bg-1.jpg",
+        "icon": null,
+        "rank": 4,
+        "link": null,
+        "subtitle": "Lorem ipsum dolor sit amet"
+      },
+      {
+        "id": "3444",
+        "sectionId": "444",
+        "title": "SuperWiFi is already available somewhere.",
+        "background": "image-tile-bg-2.jpg",
+        "icon": null,
+        "rank": 3,
+        "link": null,
+        "subtitle": "Bandwidth seeker"
+      }
+    ]
+  },
+  "validations": {
+    "login.msisdn": [
+      {
+        "ref": "1",
+        "regex": "^(20|30|31|50|70)([0-9]{7})$",
+        "message": "validation_login_msisdn_1",
+        "rank": 2
+      },
+      {
+        "ref": "2",
+        "regex": "^(20|30|31|50|70)$",
+        "message": "start_with_valid_prefix",
+        "rank": 1
+      }
+    ],
+    "login.password": [
+      {
+        "ref": "3",
+        "regex": "(?=^[a-zA-Z0-9!#$%+,-.:?@_~]{8,30}$)(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])^.*",
+        "message": "validation_login_password_1",
+        "rank": 1
+      }
+    ]
+  }
+}
